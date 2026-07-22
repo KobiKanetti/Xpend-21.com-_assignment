@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>21.com - Product Manager Assignment</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --text-color: #e0e0e0;
+            --accent-color: #ffcc00;
+            --surface-color: #1e1e1e;
+        }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            max-width: 850px; 
+            margin: 0 auto; 
+            padding: 40px; 
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+        .container {
+            background-color: var(--surface-color);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        h1 { color: var(--accent-color); border-bottom: 2px solid var(--accent-color); padding-bottom: 10px; }
+        h2 { color: var(--accent-color); margin-top: 30px; font-size: 1.5em; }
+        h3 { color: #fff; margin-top: 25px; font-size: 1.25em; }
+        h4 { color: #fff; margin-top: 20px; font-size: 1.1em; }
+        p, li { color: #bbb; }
+        strong { color: #fff; }
+        .author { font-size: 1.4em; font-weight: bold; margin-bottom: 5px; color: var(--accent-color); }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="author">Kobi Kanetti</div>
+    <h1>21.com - Product Manager Assignment</h1>
+
+    <h2>Section 1: Product Analysis - 21.com</h2>
+
+    <h3>Improvement 1# : Deposit Funnel Optimization</h3>
+    <p><strong>The Problem:</strong> The deposit process creates a few friction points that can lead to drop-offs:</p>
+    <ul>
+        <li><strong>Negative Bonus Framing:</strong> The bonus option defaults to a negative phrase ("I don't want a bonus"). This can cause users to hesitate, leave the deposit flow to find the account verification page, or just leave feeling like the platform is being unhelpful.</li>
+        <li><strong>Missing Context for ID:</strong> When depositing Fiat currencies, there is no text explaining why an ID number is required. While experienced casino players get it right away, users who care more about privacy might get hesitant.</li>
+    </ul>
+    <p><strong>Why is this important?</strong> The deposit process (especially the first deposit) is the most critical stage in converting a user. Losing a user at this point means wasting the marketing effort and money spent to acquire them.</p>
+    
+    <p><strong>What can we improve?</strong></p>
+    <ul>
+        <li><strong>Positive Bonus Selection:</strong> Change the text to be welcoming and positive, and add a quick shortcut to complete account verification via SMS or email directly within the flow.</li>
+        <li><strong>Identification Explanations:</strong> Add a short note under the ID fields explaining that this information is required by law and is mostly used to secure the user account.</li>
+        <li><strong>Side Note:</strong> If local regulations and payment providers allow it, integrating one-click payments like Apple Pay or Google Pay would further simplify Fiat deposits.</li>
+    </ul>
+
+    <p><strong>Expected Business Impact:</strong></p>
+    <ul>
+        <li>Increase in First-Time Deposit conversion rate.</li>
+        <li>Higher rate of completed user account verifications.</li>
+        <li>Abandonment reduction in the deposit form</li>
+    </ul>
+
+    <h3>Improvement 2# : Solving the "Cold Start" Problem via Smart Onboarding Survey</h3>
+    <p><strong>The Problem:</strong> When a new user completes registration, they land on a homepage featuring a crowded, generic game catalog. While returning players have the "Last Played" section to easily jump back into their favorite games, a new user faces a "Cold Start" scenario. They can easily experience choice overload because the system doesn't know them or their preferences yet.</p>
+    <p><strong>Why is this important?</strong> A user’s first few minutes on the platform are critical whether they have already deposited or not. If a player joined specifically for Live Roulette or Sportsbook, but the homepage is full of Slots, they might get frustrated, fail to find what they're looking for, and drop off.</p>
+    
+    <p><strong>What can we improve?</strong></p>
+    <ul>
+        <li><strong>Short Onboarding Survey:</strong> Adding 2-3 quick multiple choice questions right after registration (with a clear "Skip" option). For example: "What do you enjoy playing most?" or "What is your favorite slot style?".</li>
+        <li><strong>Dynamic Homepage:</strong> Use the survey answers to dynamically generate a personalized homepage layout from before the user even starts their first game.</li>
+    </ul>
+
+    <p><strong>Expected Business Impact:</strong></p>
+    <ul>
+        <li>Increase in the percentage of new users who launch their first game.</li>
+        <li>Higher deposit conversion rate (for users who registered but haven't deposited yet).</li>
+        <li>Longer first-session duration.</li>
+    </ul>
+
+    <h3>Improvement 3# : Raffle System</h3>
+    <p><strong>The Problem:</strong> The rewards and promotions on the site are mainly passive incentives, such as weekly or monthly bonuses, or completing tier progression in the "21 Elite Club". There is a lack of active and competitive bonus type on the platform that can give players an extra reason to keep playing beyond their individual game “against” the casino.</p>
+    <p><strong>Why is this important?</strong> Introducing a competitive element between players rather than just the traditional player vs casino, create a sense of community, anticipation, and urgency. Without continuous engagement drivers, players are more likely to search for other platforms that can provides that.</p>
+    
+    <p><strong>What can we improve?</strong></p>
+    <ul>
+        <li><strong>Raffle Ticket System:</strong> Implement a recurring raffle system (daily, weekly, or monthly). Each time a player gambles a specific amount, they earns a raffle ticket. The more tickets they collect, the higher their chances of winning from a shared prize pool.</li>
+    </ul>
+
+    <p><strong>Expected Business Impact:</strong></p>
+    <ul>
+        <li>Increase in user retention rates.</li>
+        <li>Overall increase in total gambling volume on the site.</li>
+        <li>Higher frequency of repeat deposits from active players.</li>
+    </ul>
+
+    <h2>Section 2: Competitive Analysis – 21.com vs. Roobet.com</h2>
+
+    <h3>Part 1: Platform Comparison</h3>
+    <p><strong>What does Roobet.com do better?</strong></p>
+    <ul>
+        <li><strong>Homepage Diversity and Accessibility:</strong> They provide fast, visual access to almost every gambling vertical available on the site directly from the homepage.</li>
+        <li><strong>Community Experience:</strong> Live community chat on the homepage, alongside features like raffle systems, creates a strong social atmosphere beyond the core casino experience.</li>
+        <li><strong>Engaging Rewards System:</strong> Their bonus/promotions and rewards claim mechanics feel much more complete, dynamic, and inviting.</li>
+    </ul>
+    <p><strong>What does 21.com do better?</strong></p>
+    <ul>
+        <li><strong>Streamlined Deposit Funnel:</strong> The deposit flow is much simpler and more focused in terms of steps and overall UX funnel.</li>
+        <li><strong>Professional & Trustworthy Design:</strong> The site design looks more polished, professional, and reliable, avoiding the heavily "gaming oriented" feel of Roobet that might intimidate traditional players.</li>
+    </ul>
+
+    <h3>Part 2: Three Ideas to Adopt from Roobet.com to 21.com</h3>
+    <ol>
+        <li><strong>One-Click Game Navigation from Live Bet Tables:</strong>
+            <ul>
+                <li><strong>What to adopt:</strong> Both platforms feature a live updating table showing recent wins and bets. In Roobet, clicking any row in the table takes the user directly to that game with a single click. In 21.com, clicking a row opens a pop-up showing the exact same details already visible in the table, requiring an extra click to actually navigate to the game.</li>
+                <li><strong>Why:</strong> Removing this pop-up and enabling direct one-click navigation would significantly shorten the user journey to playing.</li>
+            </ul>
+        </li>
+        <li><strong>"Hot Games" Live RTP Table:</strong>
+            <ul>
+                <li><strong>What to adopt:</strong> While 21.com indicates big wins on specific games, Roobet offers a dedicated table ranking games from "Hot" to "Cold" based on real-time winning percentages.</li>
+                <li><strong>Why:</strong> Casino players love following streaks and luck. A clear "Hot Games" indicator can triggers FOMO and encourages players to jump in, hoping to replicate others big wins.</li>
+            </ul>
+        </li>
+        <li><strong>Dynamic & Time-Sensitive Rewards System:</strong>
+            <ul>
+                <li><strong>What to adopt:</strong> Roobet’s rewards ecosystem feels much more complete and engaging, using urgency drivers like countdown timers and active claim buttons.</li>
+                <li><strong>Why:</strong> Players thrive on rewards. Creating a visual, time-sensitive claim system can build emotional connection, giving players a strong reason to return regularly to collect their bonuses.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>Section 3: Main KPIs & Measurement</h2>
+    <ol>
+        <li><strong>First-Time Deposit Conversion Rate:</strong>
+            <ul>
+                <li><strong>Definition:</strong> The percentage of registered users who successfully completed their first deposit.</li>
+                <li><strong>Why it's critical:</strong> In my view, this is the most important metric. User acquisition is extremely expensive. This KPI measures how effective our onboarding and deposit funnels really are. A low CR means we are burning marketing budget or points to a friction issue on the platform.</li>
+            </ul>
+        </li>
+        <li><strong>Retention Rate:</strong>
+            <ul>
+                <li><strong>Definition:</strong> The percentage of users who return to play on the site X days after registration or deposit (whether it was their first deposit or a recurring one).</li>
+                <li><strong>Why it's critical:</strong> Since acquiring new users is expensive, the true profitability and product-market validation of our platform come from retention. Returning players prove that the user experience and engagement are working.</li>
+            </ul>
+        </li>
+        <li><strong>Average Net Gaming Revenue Per User:</strong>
+            <ul>
+                <li><strong>Definition:</strong> Total Net Gaming Revenue (deposits minus payouts and bonuses) divided by the number of active users.</li>
+                <li><strong>Why it's critical:</strong> This is the core business metric. It shows the bottom line and the actual financial value our users generate for the company.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>C. How to Measure Them (Events, Funnels, and Dashboards)</h3>
+    <ul>
+        <li><strong>Key Tracking Events:</strong>
+            <ul>
+                <li>User Registered</li>
+                <li>Deposit Initiated</li>
+                <li>Deposit Completed (including payment method and currency)</li>
+                <li>Game Launched</li>
+                <li>Bet Placed</li>
+            </ul>
+        </li>
+        <li><strong>Funnel Analysis:</strong>
+            <ul>
+                <li>Build a step-by-step conversion funnel: <strong>Sign-Up</strong> -> <strong>Click Deposit</strong> -> <strong>Select Payment Method</strong> -> <strong>Deposit Success</strong>. This helps pinpoint exactly where users drop off.</li>
+            </ul>
+        </li>
+        <li><strong>Dashboards:</strong>
+            <ul>
+                <li>Create a real-time dashboard with breakdowns by country, device type (mobile vs. desktop), and acquisition source to spot negative impacts quickly.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Section 4: New Feature Breakdown</h2>
+    <h3>Improvement #2 (Smart Onboarding Survey & Dynamic Homepage)</h3>
+    <h4>Goal</h4>
+    <p>We will test whether adding a short survey, either during onboarding or immediately after, and generating a dynamic homepage leads to higher user engagement and reduces early drop-off.</p>
+    <p>For all metrics, we will analyze two subgroups within the test variant group: users who completed the survey vs. users who skipped it.</p>
+    
+    <h4>Key Metrics to Track</h4>
+    <ul>
+        <li><strong>Primary Metric:</strong>
+            <ul>
+                <li><strong>First Game Launch Rate:</strong> The percentage of new registered users who played at least one game, and the time between completing the registration to their first play.</li>
+            </ul>
+        </li>
+        <li><strong>Secondary Metrics:</strong>
+            <ul>
+                <li><strong>First-Time Deposit Conversion Rate:</strong> To validate if personalizing the homepage content also increases the user's will to deposit.</li>
+                <li><strong>First Session Duration:</strong> Total time spent on the platform during the user's first session.</li>
+                <li><strong>Survey Completion Rate:</strong> The percentage of newly registered users who completed the survey vs. those skipped.</li>
+            </ul>
+        </li>
+        <li><strong>Guardrail Metric:</strong>
+            <ul>
+                <li><strong>Registration Abandonment Rate:</strong> To ensure that adding the survey step does not introduce excessive friction into the registration flow.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h4>A/B Test Design</h4>
+    <ul>
+        <li><strong>Hypothesis:</strong> Adding a short survey during or right after registration and displaying a personalized homepage will increase the First Game Launch Rate by X%.</li>
+        <li><strong>Target Audience:</strong> New, first-time registered users only.</li>
+        <li><strong>Test Groups:</strong>
+            <ul>
+                <li><strong>Control Group:</strong> Experiences the standard registration flow and the existing generic homepage.</li>
+                <li><strong>Test Group:</strong> Experiences the short survey after completing registration (with a clear "Skip" option) and lands on a personalized homepage if completed.
+                    <ul>
+                        <li>Subgroup - Users who “skips” the survey.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <h4>Evaluation Strategy</h4>
+    <ol>
+        <li>Compare overall metrics between the Control Group and the Variant Group.</li>
+        <li>Compare metrics within the Variant Group between users who completed the survey and those who skipped it.</li>
+    </ol>
+    <p><strong>Duration & Success Criteria:</strong></p>
+    <p>The experiment will run for X weeks until reaching statistical significance.</p>
+    <ul>
+        <li><strong>Success Definition:</strong> If we observe a statistically significant increase in the Primary Metric in favor of the Test Group, without negatively impacting the Registration Abandonment Rate (Guardrail Metric), the experiment will be deemed a success and rolled out to 100% of users.</li>
+        <li><strong>Iterative Plan:</strong> If the metrics show neutral results or no meaningful improvement, we will analyze user behavior and drop-off points to iterate and launch Phase 2.</li>
+    </ul>
+</div>
+
+</body>
+</html>
